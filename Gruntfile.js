@@ -88,6 +88,12 @@ module.exports = function(grunt) {
                      'createDistVersion'
                      ]);
 
+  // Generate the production version
+  // ------------------
+  grunt.registerTask('deploy', "Deploy a minified & production-ready version of your app to github.", [
+                     'dist',
+                     'gh-pages'
+                     ]);
 
   // Default Task
   // ------------------
@@ -222,7 +228,7 @@ module.exports = function(grunt) {
                      'preprocess:indexHTMLDebugApp',
                      'preprocess:indexHTMLDebugTests'
                      ]);
-  
+
   grunt.registerTask('createResultDirectory', function() {
     grunt.file.mkdir('tmp/result');
   });
