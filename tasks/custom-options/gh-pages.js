@@ -3,4 +3,4 @@ module.exports = {
     base: 'dist'
   },
   src: ['**']
-}
+};
