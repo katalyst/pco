@@ -1,11 +1,66 @@
-<h2 id='title'>Welcome to Ember.js</h2>
+<div id="pagewrapper"> 
+  <div id="page">
+    <div id="header">
+      <div id="branding">
+        <a href="#"><img src="images/generic/branding.png" width="81" height="110" alt="Branding" /></a>
+      </div><!-- end branding -->
+      <img src="images/generic/brandingslogan.png" width="752" height="24" alt="Brandingslogan" class="brandingslogan" />
+    </div>
+    <div id="content" class="clearfix">
+    
+      {{outlet}}
+      
+      <div id="nav">
+        <div class="wrapper">
+          <h2 class="accessibility">Navigation</h2>
+          <ul class="clearfix">
 
-<ul>
-  {{#each}}
-    <li>
-      {{#link-to 'page' this}}{{title}}{{/link-to}}
-    </li>
-  {{/each}}
-</ul>
+            {{#each}}
+              <li>
+                {{#unless this.parent}}
+                  {{#link-to 'page' this}}
+                    <img {{bind-attr src=navImage}} width="74" height="74" {{bind-attr alt=title}} class="rollover" />
+                  {{/link-to}}
+                {{/unless}}
+              </li>
+            {{/each}}
 
-{{outlet}}
+          </ul>
+
+        </div>
+        <hr />
+      </div><!-- end nav -->
+        
+    </div><!-- end content -->
+    
+    <div id="footer_index" class="clearfix">
+      <ul>
+        <li><a href="aboutus.html">About Us</a></li>
+        <li><a href="ourpeople.html">Our People</a></li>
+        <li><a href="quality.html">Quality</a></li>
+        <li><a href="careers.html">Careers</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="services.html">Services </a></li>
+        <li><a href="referrals.html">Online Referral</a></li>
+        <li><a href="links.html">Links</a></li>
+      </ul><br>
+      
+      <ul>
+        <li><a href="index.html">Home</a></li>          
+        <li><a href="sitemap.html">Site Map</a></li>
+        <li><a href="copyright.html">Copyright</a></li>
+        <li><a href="privacy.html">Privacy</a></li>
+        <li><a href="disclaimer.html">Disclaimer</a></li>
+      </ul>
+            
+    </div><!-- end footer -->
+    
+  </div><!-- end page -->
+</div>
+<div id="extra1">&nbsp;</div>
+<div id="extra2">&nbsp;</div>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
+<script type="text/javascript">
+  _uacct = "UA-2426607-1";
+  urchinTracker();
+</script>

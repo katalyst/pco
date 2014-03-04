@@ -1,6 +1,14 @@
 {{#each child in children}}
-  <li>
-    {{#link-to link child}}{{child.title}}{{/link-to}}
-    {{sidebar-nav link=link children=child.children}}
-  </li>
+  {{#if child.children}}
+    <li class="subheader">
+      {{#link-to link child class="subline"}}{{child.title}}{{/link-to}}
+      <ul>
+        {{sidebar-nav link=link children=child.children}}
+      </ul>
+    </li>
+  {{else}}
+    <li>
+      {{#link-to link child}}{{child.title}}{{/link-to}}
+    </li>
+  {{/if}}
 {{/each}}
