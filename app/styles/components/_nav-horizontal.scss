@@ -1,0 +1,49 @@
+/* NAV */
+	div#nav {
+    }
+    * html div#nav {
+        /* hide ie/mac \*/
+        height: 1%;
+        /* end hide */
+    }
+
+    div#nav div.wrapper {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 625px;
+    }
+
+    div#nav ul {
+        width: auto; 
+        width: 625px;                
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    div#nav li {
+        float: left;
+        display: inline;
+        list-style: none;
+        margin: 0px;
+        padding: 0px 15px 0px 0px;
+        }
+
+    div#nav a,
+    div#nav a:link,
+    div#nav a:active,
+    div#nav a:visited {
+        display: inline-block;
+        /* hide from ie/mac \*/
+        display: block;
+        /* end hide */
+        text-decoration: none;        
+        margin: 0px;
+        padding: 0px;        
+    }
+
+    div#nav a:hover {
+        text-decoration: none;
+		background: none;
+    }
