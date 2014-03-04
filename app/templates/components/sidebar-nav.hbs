@@ -1,0 +1,6 @@
+{{#each child in children}}
+  <li>
+    {{#link-to link child}}{{child.title}}{{/link-to}}
+    {{sidebar-nav link=link children=child.children}}
+  </li>
+{{/each}}

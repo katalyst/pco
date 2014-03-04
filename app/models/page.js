@@ -24,6 +24,12 @@ Page.FIXTURES = [
     id: 'child-page',
     title: 'Child Page',
     parent: 'home-page',
+    children: ['child-child-page']
+  },
+  {
+    id: 'child-child-page',
+    title: 'Child Child Page',
+    parent: 'child-page',
     children: []
   },
 ];
