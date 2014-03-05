@@ -14,6 +14,14 @@ var Page =  DS.Model.extend({
 
   navImage: function(){
     return "images/nav/" + this.get('id') + ".png";
+  }.property('id'),
+
+  navImageHover: function(){
+    return "images/nav/" + this.get('id') + "_roll.png";
+  }.property('id'),
+
+  navImageActive: function(){
+    return "images/nav/" + this.get('id') + "_act.png";
   }.property('id')
 
 });
