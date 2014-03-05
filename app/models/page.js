@@ -77,7 +77,7 @@ Page.FIXTURES = [
   },
   {
     id: "supported-wage-system",
-    title: "Supported Wage System &amp; On-going Support Assessments",
+    title: "Supported Wage System & On-going Support Assessments",
     children: [],
     parent: "services"
   },
