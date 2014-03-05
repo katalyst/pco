@@ -13,6 +13,5 @@ export default Ember.View.reopen({
         $thisImage.attr("src",$defaultImage);
       });
     });
-
   }
 });

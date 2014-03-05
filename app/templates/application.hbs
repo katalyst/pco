@@ -35,8 +35,12 @@
       </div><!-- end nav -->
         
     </div><!-- end content -->
-    
-    <div id="footer_index" class="clearfix">
+   
+    {{#if isHomepage}}
+      <div id="footer_index" class="clearfix">
+    {{else}}
+      <div id="footer" class="clearfix">
+    {{/if}}
       <ul>
         <li><a href="aboutus.html">About Us</a></li>
         <li><a href="ourpeople.html">Our People</a></li>
