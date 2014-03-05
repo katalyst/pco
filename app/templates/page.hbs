@@ -3,7 +3,10 @@
 {{#if children}}
   <div id="local">
     <ul id="subnav">
-      <li class="mainheader"><a href="/#/services">Services</a></li>
+      <li class="mainheader">
+        <!-- TODO: Show top-level parent info -->
+        {{#link-to 'page' 'services'}}Services{{/link-to}}
+      </li>
       {{sidebar-nav link='page' children=children}}
     </ul>
   </div><!-- end sub -->
