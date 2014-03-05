@@ -2,6 +2,7 @@ var Page =  DS.Model.extend({
   title:    DS.attr('string'),
   parent:   DS.belongsTo('page'),
   children: DS.hasMany('page', { async: true }),
+  hidden:   DS.attr('boolean'),
 
   path: function() {
     var parent = this.get('parent');
@@ -61,6 +62,31 @@ Page.FIXTURES = [
     id: "referrals",
     title: "Referrals",
     children: []
+  },
+  // footer pages
+  {
+    id: "sitemap",
+    title: "Sitemap",
+    children: [],
+    hidden: true
+  },
+  {
+    id: "copyright",
+    title: "Copyright",
+    children: [],
+    hidden: true
+  },
+  {
+    id: "privacy",
+    title: "Privacy",
+    children: [],
+    hidden: true
+  },
+  {
+    id: "disclaimer",
+    title: "Disclaimer",
+    children: [],
+    hidden: true
   },
   // services sub-pages
   {

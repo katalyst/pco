@@ -18,13 +18,15 @@
             {{#each}}
               <li>
                 {{#unless this.parent}}
-                  {{#link-to 'page' this}}
-                    <!-- if isCurrentPage -->
-                      <!-- <img {{bind-attr src=navImageActive}} width="74" height="74" {{bind-attr alt=title}} /> -->
-                    <!-- else -->
-                      <img {{bind-attr src=navImage}} width="74" height="74" {{bind-attr alt=title}} class="rollover" {{bind-attr data-default=navImage}} {{bind-attr data-rollover=navImageHover}} />
-                    <!-- /if -->
-                  {{/link-to}}
+                  {{#unless this.hidden}}
+                    {{#link-to 'page' this}}
+                      <!-- if isCurrentPage -->
+                        <!-- <img {{bind-attr src=navImageActive}} width="74" height="74" {{bind-attr alt=title}} /> -->
+                      <!-- else -->
+                        <img {{bind-attr src=navImage}} width="74" height="74" {{bind-attr alt=title}} class="rollover" {{bind-attr data-default=navImage}} {{bind-attr data-rollover=navImageHover}} />
+                      <!-- /if -->
+                    {{/link-to}}
+                  {{/unless}}
                 {{/unless}}
               </li>
             {{/each}}
@@ -36,28 +38,26 @@
         
     </div><!-- end content -->
    
-    {{#if isHomepage}}
+    
       <div id="footer_index" class="clearfix">
-    {{else}}
-      <div id="footer" class="clearfix">
-    {{/if}}
+    
       <ul>
-        <li><a href="aboutus.html">About Us</a></li>
-        <li><a href="ourpeople.html">Our People</a></li>
-        <li><a href="quality.html">Quality</a></li>
-        <li><a href="careers.html">Careers</a></li>
-        <li><a href="contact.html">Contact Us</a></li>
-        <li><a href="services.html">Services </a></li>
-        <li><a href="referrals.html">Online Referral</a></li>
-        <li><a href="links.html">Links</a></li>
+        <li>{{#link-to 'page' 'about-us'}}About Us{{/link-to}}</li>
+        <li>{{#link-to 'page' 'our-people'}}Our People{{/link-to}}</li>
+        <li>{{#link-to 'page' 'quality'}}Quality{{/link-to}}</li>
+        <li>{{#link-to 'page' 'careers'}}Careers{{/link-to}}</li>
+        <li>{{#link-to 'page' 'contact'}}Contact Us{{/link-to}}</li>
+        <li>{{#link-to 'page' 'services'}}Services {{/link-to}}</li>
+        <li>{{#link-to 'page' 'referrals'}}Online Referral{{/link-to}}</li>
+        <li>{{#link-to 'page' 'links'}}Links{{/link-to}}</li>
       </ul><br>
       
       <ul>
-        <li><a href="index.html">Home</a></li>          
-        <li><a href="sitemap.html">Site Map</a></li>
-        <li><a href="copyright.html">Copyright</a></li>
-        <li><a href="privacy.html">Privacy</a></li>
-        <li><a href="disclaimer.html">Disclaimer</a></li>
+        <li>{{#link-to 'index'}}Home{{/link-to}}</li>
+        <li>{{#link-to 'page' 'sitemap'}}Site Map{{/link-to}}</li>
+        <li>{{#link-to 'page' 'copyright'}}Copyright{{/link-to}}</li>
+        <li>{{#link-to 'page' 'privacy'}}Privacy{{/link-to}}</li>
+        <li>{{#link-to 'page' 'disclaimer'}}Disclaimer{{/link-to}}</li>
       </ul>
             
     </div><!-- end footer -->
