@@ -38,9 +38,11 @@
         
     </div><!-- end content -->
    
-    
+    {{#if isHomepage}}
       <div id="footer_index" class="clearfix">
-    
+    {{else}}
+      <div id="footer" class="clearfix">
+    {{/if}}
       <ul>
         <li>{{#link-to 'page' 'about-us'}}About Us{{/link-to}}</li>
         <li>{{#link-to 'page' 'our-people'}}Our People{{/link-to}}</li>

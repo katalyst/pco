@@ -1,9 +1,9 @@
-export default Ember.ObjectController.extend({
+export default Ember.ArrayController.extend({
   isHomepage: function(){
-    debugger;
+    // debugger;
     console.log("---------------test");
     var currentURL = App.__container__.lookup('router:main').location.lastSetURL;
-    if (currentUrl = null) {
+    if (currentURL = null) {
       return true;
     } else {
       return false;
