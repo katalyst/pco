@@ -204,13 +204,13 @@ Page.FIXTURES = [
   {
     id: "contact",
     title: "Contact Us",
-    children: ["referrals"]
+    children: []
   },
-    {
-      id: "referrals",
-      title: "Referrals",
-      parent: "contact"
-    },
+    // {
+    //   id: "referrals",
+    //   title: "Referrals",
+    //   parent: "contact"
+    // },
   // footer pages
   {
     id: "sitemap",
