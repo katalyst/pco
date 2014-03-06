@@ -1,11 +1,77 @@
-<h2 id='title'>Welcome to Ember.js</h2>
+<div id="pagewrapper"> 
+  <div id="page">
+    <div id="header">
+      <div id="branding">
+        <a href="#"><img src="images/generic/branding.png" width="81" height="110" alt="Branding" /></a>
+      </div><!-- end branding -->
+      <img src="images/generic/brandingslogan.png" width="752" height="24" alt="Brandingslogan" class="brandingslogan" />
+    </div>
+    <div id="content" class="clearfix">
 
-<ul>
-  {{#each}}
-    <li>
-      {{#link-to 'page' this}}{{title}}{{/link-to}}
-    </li>
-  {{/each}}
-</ul>
+      {{outlet}}
+      
+      <div id="nav">
+        <div class="wrapper">
+          <h2 class="accessibility">Navigation</h2>
+          <ul class="clearfix">
 
-{{outlet}}
+            {{#each}}
+              <li>
+                {{#unless this.parent}}
+                  {{#unless this.hidden}}
+                    {{#link-to 'page' this}}
+                      <!-- if isCurrentPage -->
+                        <!-- <img {{bind-attr src=navImageActive}} width="74" height="74" {{bind-attr alt=title}} /> -->
+                      <!-- else -->
+                        <img {{bind-attr src=navImage}} width="74" height="74" {{bind-attr alt=title}} class="rollover" {{bind-attr data-default=navImage}} {{bind-attr data-rollover=navImageHover}} />
+                      <!-- /if -->
+                    {{/link-to}}
+                  {{/unless}}
+                {{/unless}}
+              </li>
+            {{/each}}
+
+          </ul>
+        </div>
+        <hr />
+      </div><!-- end nav -->
+        
+    </div><!-- end content -->
+   
+    {{#if isHomepage}}
+      <div id="footer_index" class="clearfix">
+    {{else}}
+      <div id="footer" class="clearfix">
+    {{/if}}
+      <ul>
+        <li>{{#link-to 'page' 'about-us'}}About Us{{/link-to}}</li>
+        <li>{{#link-to 'page' 'our-people'}}Our People{{/link-to}}</li>
+        <li>{{#link-to 'page' 'quality'}}Quality{{/link-to}}</li>
+        <li>{{#link-to 'page' 'careers'}}Careers{{/link-to}}</li>
+        <li>{{#link-to 'page' 'contact'}}Contact Us{{/link-to}}</li>
+        <li>{{#link-to 'page' 'services'}}Services {{/link-to}}</li>
+        <li>{{#link-to 'page' 'referrals'}}Online Referral{{/link-to}}</li>
+        <li>{{#link-to 'page' 'links'}}Links{{/link-to}}</li>
+      </ul><br>
+      
+      <ul>
+        <li>{{#link-to 'index'}}Home{{/link-to}}</li>
+        <li>{{#link-to 'page' 'sitemap'}}Site Map{{/link-to}}</li>
+        <li>{{#link-to 'page' 'copyright'}}Copyright{{/link-to}}</li>
+        <li>{{#link-to 'page' 'privacy'}}Privacy{{/link-to}}</li>
+        <li>{{#link-to 'page' 'disclaimer'}}Disclaimer{{/link-to}}</li>
+      </ul>
+            
+    </div><!-- end footer -->
+    
+  </div><!-- end page -->
+</div>
+<div id="extra1">&nbsp;</div>
+<div id="extra2">&nbsp;</div>
+<!--
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
+<script type="text/javascript">
+  _uacct = "UA-2426607-1";
+  urchinTracker();
+</script>
+-->

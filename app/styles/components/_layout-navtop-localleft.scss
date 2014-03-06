@@ -1,0 +1,40 @@
+/* NAV BAR AT THE TOP, LOCAL NAVIGATION ON THE LEFT AND ONE COLUMN OF CONTENT */
+    div#content {
+        position: relative;
+		  top: 25px;
+        width: 753px;        
+        margin: 0px auto 25px auto;
+        padding: 0px 0px 0px 0px;        
+        text-align: left;
+    }
+    div#main {
+        float: right;
+        width: 522px;
+        display: inline;
+		  background: #fff;
+		  padding: 0px 0px 0px 0px;
+		  margin: 10px 18px 0px 0px;
+    }
+
+    div#main_index {
+			position:relative;
+	      width: 753px;
+			padding: 0px 0px 0px 0px;
+			margin: 0px 0px 0px 0px;
+    }
+
+    div#local {
+        float: left;
+        width: 184px;
+        display: inline;
+		  margin: 10px 0px 0px 18px;
+    }
+
+    div#nav {
+        position: absolute;
+        top: -42px;
+        left: 127px;
+        width: 100%;        
+        text-align: left;
+    }
+/* END CONTENT */

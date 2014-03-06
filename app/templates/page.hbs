@@ -1,3 +1,14 @@
 {{partial path}}
 
-{{sidebar-nav link='page' children=children}}
+{{#if children}}
+  <div id="local">
+    <ul id="subnav">
+      <li class="mainheader">
+        <!-- TODO: Show top-level parent info -->
+        {{#link-to 'page' 'services'}}Services{{/link-to}}
+      </li>
+      <!-- TODO: Show all children of top-level parent -->
+      {{sidebar-nav link='page' children=children}}
+    </ul>
+  </div><!-- end sub -->
+{{/if}}

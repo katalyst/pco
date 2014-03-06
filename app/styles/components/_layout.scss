@@ -1,0 +1,332 @@
+
+
+/* SITE SPECIFIC LAYOUT */
+    body {
+        margin: 0;
+        padding: 0;        
+        background: #c0c0c0; /* url(../images/background/body.png) repeat-x */            
+        text-align: center;
+    }
+
+    div#pagewrapper {
+        width: 800px;        
+        margin: 20px auto 0 auto;
+        padding: 0px 0 20px 0;        
+        background: #fff url(../images/background/body.png) top repeat-x ;
+			background-position: 0px 0px;
+        text-align: center;
+		  border:1px solid #000;
+    }
+
+    div#page {
+        width: 753px;
+        
+        margin: 20px auto 0 auto;
+        padding: 0;
+        
+        background: #404041 url(../images/background/content.png) repeat-y;
+        text-align: center;
+    }
+    
+    /* HEADER */
+        div#header {
+			position: relative;
+			top: 0px;
+			left: 0px;
+            margin: 0 0 0 0;
+            padding: 0px 0px 0px 0px;            
+           	height: 140px;
+            text-align: left;
+			background: url(../images/background/headershadow.png) top no-repeat;
+        }
+        div#branding {
+			position: absolute;
+			top: 14px;
+			left: 24px;
+            margin: 0;
+            padding: 0px 0 0px 0px;            
+            text-align: left;
+        }
+
+        .brandingslogan {
+			position: absolute;
+			top: 141px;
+			left: 0px;
+            margin: 0;
+            padding: 0px 0 0px 0px;            
+            text-align: left;
+        }
+    /* END HEADER */
+    
+    
+    /* CONTENT */
+        div#content {
+            
+        }
+        
+        /* MAIN */
+            div#main {
+                
+            }
+
+            div#main_index {
+                
+            }
+
+			iframe {
+				padding: 0px 0px 0px 20px;
+			}
+
+			.banner {
+				padding: 0px 0px 18px 0px;
+			}
+			
+			.indexquote {
+				padding: 20px 0px 15px 130px;
+			}
+			
+			.qualityendorsedlogo {
+				position: absolute;
+				top: 480px;
+				left: 40px;
+			}
+        /* END MAIN */
+        
+        /* SUB */
+            div#sub {
+                
+            }
+        /* END SUB */
+        
+    /* END CONTENT */
+    
+    
+    /* FOOTER */
+    div#footer_index {
+        color: white;
+		height: 50px;
+		margin: 0px 0px 0px 0px;
+		background: url(../images/background/footerbase.png) bottom no-repeat;
+		
+    }
+
+        div#footer {
+            color: white;
+			height: 50px;
+			margin: 40px 0px 0px 207px;
+			
+        }
+
+        div#footer_index ul {
+			list-style: none;
+           	margin: 0 0 0 130px;
+            padding: 0px 0px 0px 0px;
+			float: left;
+			display: inline;/*(inline fixes the box model prob in ie)*/
+        }
+
+        div#footer ul{
+			list-style: none;
+           	margin: 0;
+            padding: 0px 0px 0px 0px;
+			float: left;
+			display: block;
+        }
+        div#footer ul li, div#footer_index ul li {
+			list-style: none;
+           	margin: 0;
+            padding: 0px 5px;
+			float: left;
+			display: inline; 
+			font-size: 10px;
+        }
+
+        div#footer ul li a, div#footer_index ul li a {
+			color: #b5b7b9;
+			text-decoration: none;
+        }
+
+        div#footer ul li a:hover,div#footer_index ul li a:hover {
+			color: #fff;
+			text-decoration: none;
+        }
+
+    /* END FOOTER */
+/* END LAYOUT */
+
+
+
+
+/* UL.SUBNAV */
+ ul#subnav {
+     margin: 0px 0px 0px 0px;
+     padding: 0px 0px 0px 0px;
+     list-style: none;
+		float: left;
+		display: inline;
+		font-family: helvetica;
+		width: 189px;
+ }
+
+ ul#subnav li {
+     margin:  0px 0px 0px 0px;
+	padding: 0px 0px;
+	float: left;		
+	border-bottom: 1px solid #404041;
+ }
+
+
+ ul#subnav li ul {
+     margin:  0px 0px 0px 0px;
+		padding: 0px 0px;
+		background: none;
+		border-bottom: none;
+ }
+
+ ul#subnav li ul li {
+     	margin: 0px 0px 0px 0px;
+		padding: 0px 0px;
+		list-style: none;
+		font-weight: normal;
+		background: #939598;
+		float: left;
+			border-bottom: 1px solid #404041;		
+ }
+
+
+ ul#subnav li.subheader  {
+		border-bottom: none;
+ }
+
+ ul#subnav li.subheader a.subline {
+		border-bottom: 1px solid #404041;
+ }
+
+
+ ul#subnav li a {
+		margin: 0px 0px 0px 0px;
+		width: 178px;
+		display: block;
+		padding: 4px 0px 3px 11px;
+		color: #fff;
+		background: #939598;
+		text-decoration: none;
+		font-size: 13px;
+ }
+
+ ul#subnav li.active a {
+		margin: 0px 0px 0px 0px;
+		width: 178px;
+		display: block;
+		padding: 4px 0px 3px 11px;
+		color: #fff;
+		background: #939598;
+		text-decoration: none;
+		font-size: 13px;
+ }
+
+
+ ul#subnav li a:hover {
+		margin: 0px 0px 0px 0px;
+		width: 178px;
+		display: block;
+		padding: 4px 0px 3px 11px;
+		color: #fff;
+		background: #696a6c;
+		text-decoration: none;
+ }
+
+
+ ul#subnav li.mainheader a {		
+		margin: 0px 0px 5px 0px;
+		width: 178px;
+		padding: 4px 0px 3px 11px;
+		color: #fff;
+		background: #40c8f4;
+		text-decoration: none;
+		font-size: 15px;		
+ }
+
+ ul#subnav li.mainheader a:hover {		
+		margin: 0px 0px 5px 0px;
+		width: 178px;
+		padding: 4px 0px 3px 11px;
+		color: #fff;
+		background: #696a6c;
+		text-decoration: none;
+		font-size: 15px;		
+ }
+
+
+
+ ul#subnav li.subactive  {
+		margin: 0px 0px 0px 0px;
+		width: 178px;
+		display: block;
+		padding: 4px 0px 3px 11px;
+		color: #fff;
+		background: #939598 url(../images/background/subnavactive.png) repeat-y;
+		text-decoration: none;		
+		font-size: 13px;
+ }
+
+ ul#subnav li a.sublinesubheader  {
+		margin: 0px 0px 0px 0px;
+		width: 178px;
+		display: block;
+		padding: 4px 0px 3px 11px;
+		color: #fff;
+		background: #939598 url(../images/background/subnavactive.png) repeat-y;
+		text-decoration: none;		
+		font-size: 13px;
+		border-bottom: 1px solid #404041;
+ }
+
+ ul#subnav li ul li a {
+		margin: 0px 0px 0px 0px;
+		width: 164px;
+		display: block;		
+		background: #939598;
+		padding: 4px 0px 3px 25px;
+		color: #fff;
+		text-decoration: none;
+		font-size: 12px;
+ }
+
+
+/* ul#subnav li ul li.subactive  {
+		margin: 0px 0px 1px 0px;
+		width: 156px;
+		display: block;
+		padding: 4px 0px 3px 25px;
+		color: #fff;
+		background: #939598;
+		text-decoration: none;
+		font-size: 12px;
+		border-right: 8px solid #f4793b;
+ }*/
+
+ ul#subnav li ul li.subactive  {
+		margin: 0px 0px 0px 0px;
+		width: 164px;
+		display: block;
+		padding: 4px 0px 3px 25px;
+		color: #fff;
+		background: #939598 url(../images/background/subnavactive.png) repeat-y;
+		text-decoration: none;
+		font-size: 12px;
+ }
+
+
+ ul#subnav li ul li a:hover {
+		margin: 0px 0px 0px 0px;
+		width: 164px;
+		display: block;	
+		padding: 4px 0px 3px 25px;
+		color: #fff;
+		background: #696a6c;		
+		text-decoration: none;
+			font-size: 12px;
+ }
+
+/* END UL.SUBNAV */
