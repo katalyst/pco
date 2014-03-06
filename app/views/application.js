@@ -21,7 +21,16 @@ export default Ember.View.reopen({
       $thisCycle.cycle({
         cleartypeNoBg: true
       });
-    }).addClass(".cycle-init");
+    }).addClass("cycle-init");
+
+    // Accordions
+    $(".accordions").not(".accordions-init").each(function(){
+      var $accordions = $(this);
+      var $questions = $accordions.find(".accordion--question");
+      $questions.on("click", function(e){
+        $(this).toggleClass("accordion_active");
+      });
+    }).addClass("accordions-init");
 
   }
 });
