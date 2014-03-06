@@ -62,8 +62,8 @@
 		line-height:16px;
 	}
 	blockquote {
-		border-left:10px solid #ddd;
-		margin-left:10px;
+		text-align: center;
+		margin: 0 22px 5px 22px;
 	}
 	pre {
 		font-family: monospace;
@@ -133,4 +133,18 @@
 		border-bottom: 1px dotted black;
 	}
 	
+	/* CYCLE */
+	#main .cycle {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	#main .cycle li {
+		list-style: none;
+		margin: 0;
+	}
+	#main .cycle li blockquote {
+		font-style: italic;
+	}
+
 /* END TYPOGRAPHY */	
