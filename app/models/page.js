@@ -23,7 +23,17 @@ var Page =  DS.Model.extend({
 
   navImageActive: function(){
     return "images/nav/" + this.get('id') + "_act.png";
-  }.property('id')
+  }.property('id'),
+
+  root: function() {
+    var parent = this.get('parent');
+
+    if (parent !== null) {
+      return parent.get('root');
+    } else {
+      return this;
+    }
+  }.property('parent'),
 
 });
 
