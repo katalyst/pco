@@ -3,7 +3,7 @@ export default Ember.Route.extend({
     return this.store.find('page', 'about-us');
   },
   afterModel: function(page, transition) {
-    if (page !=== undefined) {
+    if (page !== undefined) {
       this.transitionTo('page', page);
     }
   }
