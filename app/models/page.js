@@ -3,6 +3,7 @@ var Page =  DS.Model.extend({
   parent:   DS.belongsTo('page'),
   children: DS.hasMany('page', { async: true }),
   hidden:   DS.attr('boolean'),
+  slug:     DS.attr('string'),
 
   path: function() {
     var parent = this.get('parent');
@@ -41,7 +42,7 @@ Page.FIXTURES = [
   {
     id: "about-us",
     title: "About Us",
-    children: ["how-can-we-help-you", "our-customers", "our-values", "commitment-to-quality", "our-people"]
+    children: ["how-can-we-help-you", "our-customers", "our-values", "commitment-to-quality", "our-people-alias"]
   },
     {
       id: "how-can-we-help-you",
@@ -62,6 +63,12 @@ Page.FIXTURES = [
       id: "commitment-to-quality",
       title: "Commitment To Quality",
       parent: "about-us"
+    },
+    {
+      id: "our-people-alias",
+      title: "Our People",
+      parent: "about-us",
+      slug: "our-people"
     },
   {
     id: "our-people",
