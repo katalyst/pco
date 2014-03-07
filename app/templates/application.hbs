@@ -1,4 +1,4 @@
-<div id="pagewrapper"> 
+<div id="pagewrapper">
   <div id="page">
     <div id="header">
       <div id="branding">
@@ -9,22 +9,22 @@
     <div id="content" class="clearfix">
 
       {{outlet}}
-      
+
       <div id="nav">
         <div class="wrapper">
           <h2 class="accessibility">Navigation</h2>
           <ul class="clearfix">
 
-            {{#each}}
+            {{#each model itemController='listedPage'}}
               <li>
                 {{#unless this.parent}}
                   {{#unless this.hidden}}
                     {{#link-to 'page' this}}
-                      <!-- if isCurrentPage -->
-                        <!-- <img {{bind-attr src=navImageActive}} width="74" height="74" {{bind-attr alt=title}} /> -->
-                      <!-- else -->
+                      {{#if isSelected}}
+                        <img {{bind-attr src=navImageActive}} width="74" height="74" {{bind-attr alt=title}} />
+                      {{else}}
                         <img {{bind-attr src=navImage}} width="74" height="74" {{bind-attr alt=title}} class="rollover" {{bind-attr data-default=navImage}} {{bind-attr data-rollover=navImageHover}} />
-                      <!-- /if -->
+                      {{/if}}
                     {{/link-to}}
                   {{/unless}}
                 {{/unless}}
@@ -35,9 +35,9 @@
         </div>
         <hr />
       </div><!-- end nav -->
-        
+
     </div><!-- end content -->
-   
+
     {{#if isHomepage}}
       <div id="footer_index" class="clearfix">
     {{else}}
@@ -52,7 +52,7 @@
         <li>{{#link-to 'page' 'occupational-therapy'}}Occupational Therapy {{/link-to}}</li>
         <li>{{#link-to 'page' 'links'}}Links{{/link-to}}</li>
       </ul><br>
-      
+
       <ul>
         <li>{{#link-to 'index'}}Home{{/link-to}}</li>
         <li>{{#link-to 'page' 'sitemap'}}Site Map{{/link-to}}</li>
@@ -60,9 +60,9 @@
         <li>{{#link-to 'page' 'privacy'}}Privacy{{/link-to}}</li>
         <li>{{#link-to 'page' 'disclaimer'}}Disclaimer{{/link-to}}</li>
       </ul>
-            
+
     </div><!-- end footer -->
-    
+
   </div><!-- end page -->
 </div>
 <div id="extra1">&nbsp;</div>
