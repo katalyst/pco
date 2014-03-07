@@ -38,23 +38,25 @@
 
     </div><!-- end content -->
 
-    {{#if isHomepage}}
-      <div id="footer_index" class="clearfix">
-    {{else}}
-      <div id="footer" class="clearfix">
-    {{/if}}
+    <div id="footer" class="clearfix">
+
       <ul>
-        <li>{{#link-to 'page' 'about-us'}}About Us{{/link-to}}</li>
-        <li>{{#link-to 'page' 'our-people'}}Our People{{/link-to}}</li>
         <li>{{#link-to 'page' 'workplace-rehabilitation'}}Workplace Rehabilitation{{/link-to}}</li>
         <li>{{#link-to 'page' 'disability-employment-services'}}Disability Employment Services{{/link-to}}</li>
         <li>{{#link-to 'page' 'national-panel-of-assessors'}}National Panel of Assessors{{/link-to}}</li>
         <li>{{#link-to 'page' 'occupational-therapy'}}Occupational Therapy {{/link-to}}</li>
-        <li>{{#link-to 'page' 'links'}}Links{{/link-to}}</li>
-      </ul><br>
+      </ul>
+      <br>
 
       <ul>
-        <li>{{#link-to 'index'}}Home{{/link-to}}</li>
+        <li>{{#link-to 'page' 'about-us'}}About Us{{/link-to}}</li>
+        <li>{{#link-to 'page' 'our-people'}}Our People{{/link-to}}</li>
+        <li>{{#link-to 'page' 'contact'}}Contact{{/link-to}}</li>
+        <li>{{#link-to 'page' 'links'}}Useful Links{{/link-to}}</li>
+      </ul>
+      <br>
+
+      <ul>
         <li>{{#link-to 'page' 'sitemap'}}Site Map{{/link-to}}</li>
         <li>{{#link-to 'page' 'copyright'}}Copyright{{/link-to}}</li>
         <li>{{#link-to 'page' 'privacy'}}Privacy{{/link-to}}</li>

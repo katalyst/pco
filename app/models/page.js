@@ -66,8 +66,23 @@ Page.FIXTURES = [
   {
     id: "our-people",
     title: "Our People",
-    children: []
+    children: ["management", "our-team", "careers"]
   },
+    {
+      id: "management",
+      title: "Management",
+      parent: "our-people"
+    },
+    {
+      id: "our-team",
+      title: "Our Team",
+      parent: "our-people"
+    },
+    {
+      id: "careers",
+      title: "Careers",
+      parent: "our-people"
+    },
   {
     id: "workplace-rehabilitation",
     title: "Workplace Rehabilitation & Injury Management",

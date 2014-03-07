@@ -1,0 +1,12 @@
+.accordion--answer {
+  display: none;
+}
+
+.accordion--question {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.accordion--question.accordion_active + .accordion--answer {
+  display: block;
+}
