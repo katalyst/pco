@@ -89,7 +89,7 @@
 		padding: 0;
 	}
 	#main ul li {
-		margin: 0 0 2px 35px;
+		margin: 0 22px 2px 35px;
 		padding: 0;
 	}
 
@@ -145,6 +145,14 @@
 	}
 	#main .cycle li blockquote {
 		font-style: italic;
+	}
+
+	/* RULES */
+	hr.rule {
+		display: block;
+		margin: 0 22px 15px;
+		border: 1px solid #000;
+		border-width: 1px 0 0 0;
 	}
 
 /* END TYPOGRAPHY */	
