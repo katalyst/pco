@@ -73,7 +73,7 @@ Page.FIXTURES = [
   {
     id: "our-people",
     title: "Our People",
-    children: ["management", "our-team", "careers"]
+    children: ["management", "our-team"]
   },
     {
       id: "management",
@@ -83,11 +83,6 @@ Page.FIXTURES = [
     {
       id: "our-team",
       title: "Our Team",
-      parent: "our-people"
-    },
-    {
-      id: "careers",
-      title: "Careers",
       parent: "our-people"
     },
   {
