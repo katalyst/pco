@@ -237,29 +237,7 @@
  }
 
 
- ul#subnav li.mainheader a {		
-		margin: 0px 0px 5px 0px;
-		width: 178px;
-		padding: 4px 0px 3px 11px;
-		color: #fff;
-		background: #40c8f4;
-		text-decoration: none;
-		font-size: 15px;		
- }
-
- ul#subnav li.mainheader a:hover {		
-		margin: 0px 0px 5px 0px;
-		width: 178px;
-		padding: 4px 0px 3px 11px;
-		color: #fff;
-		background: #696a6c;
-		text-decoration: none;
-		font-size: 15px;		
- }
-
-
-
- ul#subnav li.subactive  {
+ ul#subnav li a.active  {
 		margin: 0px 0px 0px 0px;
 		width: 178px;
 		display: block;
@@ -268,18 +246,6 @@
 		background: #939598 url(../images/background/subnavactive.png) repeat-y;
 		text-decoration: none;		
 		font-size: 13px;
- }
-
- ul#subnav li a.sublinesubheader  {
-		margin: 0px 0px 0px 0px;
-		width: 178px;
-		display: block;
-		padding: 4px 0px 3px 11px;
-		color: #fff;
-		background: #939598 url(../images/background/subnavactive.png) repeat-y;
-		text-decoration: none;		
-		font-size: 13px;
-		border-bottom: 1px solid #404041;
  }
 
  ul#subnav li ul li a {
@@ -306,18 +272,6 @@
 		border-right: 8px solid #f4793b;
  }*/
 
- ul#subnav li ul li.subactive  {
-		margin: 0px 0px 0px 0px;
-		width: 164px;
-		display: block;
-		padding: 4px 0px 3px 25px;
-		color: #fff;
-		background: #939598 url(../images/background/subnavactive.png) repeat-y;
-		text-decoration: none;
-		font-size: 12px;
- }
-
-
  ul#subnav li ul li a:hover {
 		margin: 0px 0px 0px 0px;
 		width: 164px;
@@ -328,5 +282,49 @@
 		text-decoration: none;
 			font-size: 12px;
  }
+
+ ul#subnav li ul li a.active  {
+    margin: 0px 0px 0px 0px;
+    width: 164px;
+    display: block;
+    padding: 4px 0px 3px 25px;
+    color: #fff;
+    background: #939598 url(../images/background/subnavactive.png) repeat-y;
+    text-decoration: none;
+    font-size: 12px;
+ }
+
+ ul#subnav li a.sublinesubheader  {
+    margin: 0px 0px 0px 0px;
+    width: 178px;
+    display: block;
+    padding: 4px 0px 3px 11px;
+    color: #fff;
+    background: #939598 url(../images/background/subnavactive.png) repeat-y;
+    text-decoration: none;    
+    font-size: 13px;
+    border-bottom: 1px solid #404041;
+ }
+
+ ul#subnav li.mainheader a {    
+    margin: 0px 0px 5px 0px;
+    width: 178px;
+    padding: 4px 0px 3px 11px;
+    color: #fff;
+    background: #40c8f4;
+    text-decoration: none;
+    font-size: 15px;    
+ }
+
+ ul#subnav li.mainheader a:hover {    
+    margin: 0px 0px 5px 0px;
+    width: 178px;
+    padding: 4px 0px 3px 11px;
+    color: #fff;
+    background: #696a6c;
+    text-decoration: none;
+    font-size: 15px;    
+ }
+
 
 /* END UL.SUBNAV */
