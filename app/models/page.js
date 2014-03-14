@@ -73,7 +73,8 @@ Page.FIXTURES = [
   {
     id: "our-people",
     title: "Our People",
-    children: ["management", "our-team"]
+    children: ["management", "our-team"],
+    hidden: true
   },
     {
       id: "management",
