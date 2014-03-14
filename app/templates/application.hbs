@@ -32,8 +32,11 @@
 
     </div><!-- end content -->
 
-    <div id="footer" class="clearfix">
+    {{#if isHomepage}}
+      homepage!
+    {{/if}}
 
+    <div id="footer" class="clearfix">
       <ul>
         <li>{{#link-to 'page' 'workplace-rehabilitation'}}Workplace Rehabilitation{{/link-to}}</li>
         <li>{{#link-to 'page' 'disability-employment-services'}}Disability Employment Services{{/link-to}}</li>

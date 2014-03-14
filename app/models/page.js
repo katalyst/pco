@@ -42,7 +42,7 @@ Page.FIXTURES = [
   {
     id: "about-us",
     title: "About Us",
-    children: ["how-can-we-help-you", "our-customers", "our-values", "commitment-to-quality", "our-people-alias"]
+    children: ["how-can-we-help-you", "our-customers", "our-values", "commitment-to-quality", "our-people"]
   },
     {
       id: "how-can-we-help-you",
@@ -65,27 +65,21 @@ Page.FIXTURES = [
       parent: "about-us"
     },
     {
-      id: "our-people-alias",
+      id: "our-people",
       title: "Our People",
       parent: "about-us",
-      slug: "our-people"
+      children: ["management", "our-team"],
     },
-  {
-    id: "our-people",
-    title: "Our People",
-    children: ["management", "our-team"],
-    hidden: true
-  },
-    {
-      id: "management",
-      title: "Management",
-      parent: "our-people"
-    },
-    {
-      id: "our-team",
-      title: "Our Team",
-      parent: "our-people"
-    },
+      {
+        id: "management",
+        title: "Management",
+        parent: "our-people"
+      },
+      {
+        id: "our-team",
+        title: "Our Team",
+        parent: "our-people"
+      },
   {
     id: "workplace-rehabilitation",
     title: "Workplace Rehabilitation & Injury Management",
