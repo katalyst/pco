@@ -15,15 +15,15 @@ var Page =  DS.Model.extend({
   }.property('id'),
 
   navImage: function(){
-    return "images/nav/" + this.get('id') + ".png";
+    return "images/nav/" + this.get('id') + ".png?2";
   }.property('id'),
 
   navImageHover: function(){
-    return "images/nav/" + this.get('id') + "_roll.png";
+    return "images/nav/" + this.get('id') + "_roll.png?2";
   }.property('id'),
 
   navImageActive: function(){
-    return "images/nav/" + this.get('id') + "_act.png";
+    return "images/nav/" + this.get('id') + "_act.png?2";
   }.property('id'),
 
   root: function() {
