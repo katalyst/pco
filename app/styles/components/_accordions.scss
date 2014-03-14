@@ -10,3 +10,9 @@
 .accordion--question.accordion_active + .accordion--answer {
   display: block;
 }
+
+.accordion--question {
+  padding-top: 10px;
+  margin-top: 10px;
+  border-top: 1px solid #000;
+}

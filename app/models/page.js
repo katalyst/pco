@@ -181,63 +181,11 @@ Page.FIXTURES = [
     title: "Occupational Therapy",
     children: []
   },
-  /*
-  {
-    id: "services",
-    title: "Services",
-    children: ["workers-compensation", "supported-wage-system"]
-  },
-    {
-      id: "workers-compensation",
-      title: "Workers Compensation",
-      children: ["return-to-work", "intensive-job-seeking", "community-restoration", "vocational-and-suitable-employment-assessments"],
-      parent: "services"
-    },
-      {
-        id: "return-to-work",
-        title: "Return To Work",
-        children: [],
-        parent: 'workers-compensation'
-      },
-      {
-        id: "intensive-job-seeking",
-        title: "Intensive Job Seeking",
-        children: [],
-        parent: 'workers-compensation'
-      },
-      {
-        id: "community-restoration",
-        title: "Community Restoration",
-        children: [],
-        parent: 'workers-compensation'
-      },
-      {
-        id: "vocational-and-suitable-employment-assessments",
-        title: "Vocational and Suitable Employment Assessments",
-        children: [],
-        parent: 'workers-compensation'
-      },
-  {
-    id: "quality",
-    title: "Quality",
-    children: []
-  },
-  {
-    id: "careers",
-    title: "Careers",
-    children: []
-  },
-  */
   {
     id: "contact",
     title: "Contact Us",
     children: []
   },
-    // {
-    //   id: "referrals",
-    //   title: "Referrals",
-    //   parent: "contact"
-    // },
   // footer pages
   {
     id: "sitemap",
