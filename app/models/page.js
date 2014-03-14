@@ -113,7 +113,7 @@ Page.FIXTURES = [
       },
     {
       id: "ppc-works",
-      title: "PPC WORKS – Job Search Training & Facilities",
+      title: "Job Search Training & Facilities",
       parent: "workplace-rehabilitation"
     },
     {
@@ -129,21 +129,16 @@ Page.FIXTURES = [
   {
     id: "disability-employment-services",
     title: "Disability Employment Services",
-    children: ["job-seekers-employees", "des-how-can-we-help-you", "job-in-jeopardy", "ppc-works", "employers", "wage-subsidies"]
+    children: ["des-how-can-we-help-you", "job-seekers-employees", "employers", "wage-subsidies", "des-ppc-works", "job-in-jeopardy"]
   },
-    {
-      id: "job-seekers-employees",
-      title: "Job Seekers & Employees",
-      parent: "disability-employment-services"
-    },
     {
       id: "des-how-can-we-help-you",
       title: "How Can We Help You?",
       parent: "disability-employment-services"
     },
     {
-      id: "job-in-jeopardy",
-      title: "Job In Jeopardy",
+      id: "job-seekers-employees",
+      title: "Job Seekers & Employees",
       parent: "disability-employment-services"
     },
     {
@@ -154,6 +149,16 @@ Page.FIXTURES = [
     {
       id: "wage-subsidies",
       title: "Wage Subsidies",
+      parent: "disability-employment-services"
+    },
+    {
+      id: "job-in-jeopardy",
+      title: "Job In Jeopardy",
+      parent: "disability-employment-services"
+    },
+    {
+      id: "des-ppc-works",
+      title: "Job Search Training & Facilities",
       parent: "disability-employment-services"
     },
   {
