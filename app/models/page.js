@@ -144,8 +144,19 @@ Page.FIXTURES = [
     {
       id: "employers",
       title: "Employers",
-      parent: "disability-employment-services"
+      parent: "disability-employment-services",
+      children: ["what-we-offer", "how-do-i-get-involved"]
     },
+      {
+        id: "what-we-offer",
+        title: "What We Offer",
+        parent: "employers"
+      },
+      {
+        id: "how-do-i-get-involved",
+        title: "How Do I Get Involved?",
+        parent: "employers"
+      },
     {
       id: "wage-subsidies",
       title: "Wage Subsidies",
