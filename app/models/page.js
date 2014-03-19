@@ -227,6 +227,11 @@ Page.FIXTURES = [
     title: "Links",
     children: [],
     hidden: true
+  },
+  {
+    id: "contact-thanks",
+    title: "Thanks",
+    hidden: true
   }
 ];
 
