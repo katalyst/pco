@@ -7,4 +7,7 @@ export default Ember.Route.extend({
   //     this.transitionTo('page', page);
   //   }
   // }
+  isHomepage: function(){
+    return false;
+  }.property('')
 });

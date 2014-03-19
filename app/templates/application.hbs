@@ -32,11 +32,13 @@
 
     </div><!-- end content -->
 
+    {{log isHomepage}}
     {{#if isHomepage}}
-      homepage!
+      <div id="footer_homepage" class="clearfix">
+    {{else}}
+      <div id="footer" class="clearfix">
     {{/if}}
 
-    <div id="footer" class="clearfix">
       <ul>
         <li>{{#link-to 'page' 'workplace-rehabilitation'}}Workplace Rehabilitation{{/link-to}}</li>
         <li>{{#link-to 'page' 'disability-employment-services'}}Disability Employment Services{{/link-to}}</li>
