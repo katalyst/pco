@@ -15,15 +15,15 @@ var Page =  DS.Model.extend({
   }.property('id'),
 
   navImage: function(){
-    return "images/nav/" + this.get('id') + ".png";
+    return "images/nav/" + this.get('id') + ".png?2";
   }.property('id'),
 
   navImageHover: function(){
-    return "images/nav/" + this.get('id') + "_roll.png";
+    return "images/nav/" + this.get('id') + "_roll.png?2";
   }.property('id'),
 
   navImageActive: function(){
-    return "images/nav/" + this.get('id') + "_act.png";
+    return "images/nav/" + this.get('id') + "_act.png?2";
   }.property('id'),
 
   root: function() {
@@ -42,7 +42,7 @@ Page.FIXTURES = [
   {
     id: "about-us",
     title: "About Us",
-    children: ["how-can-we-help-you", "our-customers", "our-values", "commitment-to-quality", "our-people-alias"]
+    children: ["how-can-we-help-you", "our-customers", "our-values", "commitment-to-quality", "our-people"]
   },
     {
       id: "how-can-we-help-you",
@@ -65,31 +65,21 @@ Page.FIXTURES = [
       parent: "about-us"
     },
     {
-      id: "our-people-alias",
+      id: "our-people",
       title: "Our People",
       parent: "about-us",
-      slug: "our-people"
+      children: ["management", "our-team"],
     },
-  {
-    id: "our-people",
-    title: "Our People",
-    children: ["management", "our-team", "careers"]
-  },
-    {
-      id: "management",
-      title: "Management",
-      parent: "our-people"
-    },
-    {
-      id: "our-team",
-      title: "Our Team",
-      parent: "our-people"
-    },
-    {
-      id: "careers",
-      title: "Careers",
-      parent: "our-people"
-    },
+      {
+        id: "management",
+        title: "Management",
+        parent: "our-people"
+      },
+      {
+        id: "our-team",
+        title: "Our Team",
+        parent: "our-people"
+      },
   {
     id: "workplace-rehabilitation",
     title: "Workplace Rehabilitation & Injury Management",
@@ -123,7 +113,7 @@ Page.FIXTURES = [
       },
     {
       id: "ppc-works",
-      title: "PPC WORKS – Job Search Training & Facilities",
+      title: "Job Search Training & Facilities",
       parent: "workplace-rehabilitation"
     },
     {
@@ -139,16 +129,37 @@ Page.FIXTURES = [
   {
     id: "disability-employment-services",
     title: "Disability Employment Services",
-    children: ["job-seekers-employees", "des-how-can-we-help-you", "job-in-jeopardy", "ppc-works", "employers", "wage-subsidies"]
+    children: ["des-how-can-we-help-you", "job-seekers-employees", "employers", "wage-subsidies", "des-ppc-works", "job-in-jeopardy"]
   },
+    {
+      id: "des-how-can-we-help-you",
+      title: "How Can We Help You?",
+      parent: "disability-employment-services"
+    },
     {
       id: "job-seekers-employees",
       title: "Job Seekers & Employees",
       parent: "disability-employment-services"
     },
     {
-      id: "des-how-can-we-help-you",
-      title: "How Can We Help You?",
+      id: "employers",
+      title: "Employers",
+      parent: "disability-employment-services",
+      children: ["what-we-offer", "how-do-i-get-involved"]
+    },
+      {
+        id: "what-we-offer",
+        title: "What We Offer",
+        parent: "employers"
+      },
+      {
+        id: "how-do-i-get-involved",
+        title: "How Do I Get Involved?",
+        parent: "employers"
+      },
+    {
+      id: "wage-subsidies",
+      title: "Wage Subsidies",
       parent: "disability-employment-services"
     },
     {
@@ -157,13 +168,8 @@ Page.FIXTURES = [
       parent: "disability-employment-services"
     },
     {
-      id: "employers",
-      title: "Employers",
-      parent: "disability-employment-services"
-    },
-    {
-      id: "wage-subsidies",
-      title: "Wage Subsidies",
+      id: "des-ppc-works",
+      title: "Job Search Training & Facilities",
       parent: "disability-employment-services"
     },
   {
@@ -186,63 +192,11 @@ Page.FIXTURES = [
     title: "Occupational Therapy",
     children: []
   },
-  /*
-  {
-    id: "services",
-    title: "Services",
-    children: ["workers-compensation", "supported-wage-system"]
-  },
-    {
-      id: "workers-compensation",
-      title: "Workers Compensation",
-      children: ["return-to-work", "intensive-job-seeking", "community-restoration", "vocational-and-suitable-employment-assessments"],
-      parent: "services"
-    },
-      {
-        id: "return-to-work",
-        title: "Return To Work",
-        children: [],
-        parent: 'workers-compensation'
-      },
-      {
-        id: "intensive-job-seeking",
-        title: "Intensive Job Seeking",
-        children: [],
-        parent: 'workers-compensation'
-      },
-      {
-        id: "community-restoration",
-        title: "Community Restoration",
-        children: [],
-        parent: 'workers-compensation'
-      },
-      {
-        id: "vocational-and-suitable-employment-assessments",
-        title: "Vocational and Suitable Employment Assessments",
-        children: [],
-        parent: 'workers-compensation'
-      },
-  {
-    id: "quality",
-    title: "Quality",
-    children: []
-  },
-  {
-    id: "careers",
-    title: "Careers",
-    children: []
-  },
-  */
   {
     id: "contact",
     title: "Contact Us",
     children: []
   },
-    // {
-    //   id: "referrals",
-    //   title: "Referrals",
-    //   parent: "contact"
-    // },
   // footer pages
   {
     id: "sitemap",
@@ -272,6 +226,11 @@ Page.FIXTURES = [
     id: "links",
     title: "Links",
     children: [],
+    hidden: true
+  },
+  {
+    id: "contact-thanks",
+    title: "Thanks",
     hidden: true
   }
 ];

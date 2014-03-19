@@ -18,9 +18,9 @@
               <li>
                 {{#link-to 'page' this}}
                   {{#if isSelected}}
-                    <img {{bind-attr src=navImageActive}} width="74" height="74" {{bind-attr alt=title}} />
+                    <img {{bind-attr src=navImageActive}} {{bind-attr alt=title}} />
                   {{else}}
-                    <img {{bind-attr src=navImage}} width="74" height="74" {{bind-attr alt=title}} class="rollover" {{bind-attr data-default=navImage}} {{bind-attr data-rollover=navImageHover}} />
+                    <img {{bind-attr src=navImage}} {{bind-attr alt=title}} class="rollover" {{bind-attr data-default=navImage}} {{bind-attr data-rollover=navImageHover}} />
                   {{/if}}
                 {{/link-to}}
               </li>
@@ -32,7 +32,12 @@
 
     </div><!-- end content -->
 
-    <div id="footer" class="clearfix">
+    {{log isHomepage}}
+    {{#if isHomepage}}
+      <div id="footer_homepage" class="clearfix">
+    {{else}}
+      <div id="footer" class="clearfix">
+    {{/if}}
 
       <ul>
         <li>{{#link-to 'page' 'workplace-rehabilitation'}}Workplace Rehabilitation{{/link-to}}</li>
@@ -44,11 +49,9 @@
 
       <ul>
         <li>{{#link-to 'page' 'about-us'}}About Us{{/link-to}}</li>
-        <li>{{#link-to 'page' 'our-people'}}Our People{{/link-to}}</li>
         <li>{{#link-to 'page' 'contact'}}Contact{{/link-to}}</li>
         <li>{{#link-to 'page' 'links'}}Useful Links{{/link-to}}</li>
       </ul>
-      <br>
 
       <ul>
         <li>{{#link-to 'page' 'sitemap'}}Site Map{{/link-to}}</li>

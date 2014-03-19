@@ -103,16 +103,15 @@
     
     /* FOOTER */
     div#footer_index {
-        color: white;
-		height: 60px;
-		margin: 0px 0px 0px 0px;
-		background: url(../images/background/footerbase.png) bottom no-repeat;
-		
+      color: white;
+		  height: 40px;
+		  margin: 0px 0px 0px 0px;
+		  background: url(../images/background/footerbase.png) bottom no-repeat;
     }
 
         div#footer {
             color: white;
-			height: 60px;
+			height: 40px;
 			margin: 40px 0px 0px 207px;
 			
         }
@@ -205,9 +204,9 @@
 
  ul#subnav li a {
 		margin: 0px 0px 0px 0px;
-		width: 178px;
+		width: 170px;
 		display: block;
-		padding: 4px 0px 3px 11px;
+		padding: 4px 8px 3px 11px;
 		color: #fff;
 		background: #939598;
 		text-decoration: none;
@@ -216,9 +215,9 @@
 
  ul#subnav li.active a {
 		margin: 0px 0px 0px 0px;
-		width: 178px;
+		width: 170px;
 		display: block;
-		padding: 4px 0px 3px 11px;
+		padding: 4px 8px 3px 11px;
 		color: #fff;
 		background: #939598;
 		text-decoration: none;
@@ -228,38 +227,16 @@
 
  ul#subnav li a:hover {
 		margin: 0px 0px 0px 0px;
-		width: 178px;
+		width: 170px;
 		display: block;
-		padding: 4px 0px 3px 11px;
+		padding: 4px 8px 3px 11px;
 		color: #fff;
 		background: #696a6c;
 		text-decoration: none;
  }
 
 
- ul#subnav li.mainheader a {		
-		margin: 0px 0px 5px 0px;
-		width: 178px;
-		padding: 4px 0px 3px 11px;
-		color: #fff;
-		background: #40c8f4;
-		text-decoration: none;
-		font-size: 15px;		
- }
-
- ul#subnav li.mainheader a:hover {		
-		margin: 0px 0px 5px 0px;
-		width: 178px;
-		padding: 4px 0px 3px 11px;
-		color: #fff;
-		background: #696a6c;
-		text-decoration: none;
-		font-size: 15px;		
- }
-
-
-
- ul#subnav li.subactive  {
+ ul#subnav li a.active  {
 		margin: 0px 0px 0px 0px;
 		width: 178px;
 		display: block;
@@ -268,26 +245,14 @@
 		background: #939598 url(../images/background/subnavactive.png) repeat-y;
 		text-decoration: none;		
 		font-size: 13px;
- }
-
- ul#subnav li a.sublinesubheader  {
-		margin: 0px 0px 0px 0px;
-		width: 178px;
-		display: block;
-		padding: 4px 0px 3px 11px;
-		color: #fff;
-		background: #939598 url(../images/background/subnavactive.png) repeat-y;
-		text-decoration: none;		
-		font-size: 13px;
-		border-bottom: 1px solid #404041;
  }
 
  ul#subnav li ul li a {
 		margin: 0px 0px 0px 0px;
-		width: 164px;
+		width: 156px;
 		display: block;		
 		background: #939598;
-		padding: 4px 0px 3px 25px;
+		padding: 4px 8px 3px 25px;
 		color: #fff;
 		text-decoration: none;
 		font-size: 12px;
@@ -306,27 +271,59 @@
 		border-right: 8px solid #f4793b;
  }*/
 
- ul#subnav li ul li.subactive  {
-		margin: 0px 0px 0px 0px;
-		width: 164px;
-		display: block;
-		padding: 4px 0px 3px 25px;
-		color: #fff;
-		background: #939598 url(../images/background/subnavactive.png) repeat-y;
-		text-decoration: none;
-		font-size: 12px;
- }
-
-
  ul#subnav li ul li a:hover {
 		margin: 0px 0px 0px 0px;
-		width: 164px;
+		width: 156px;
 		display: block;	
-		padding: 4px 0px 3px 25px;
+		padding: 4px 8px 3px 25px;
 		color: #fff;
 		background: #696a6c;		
 		text-decoration: none;
 			font-size: 12px;
  }
+
+ ul#subnav li ul li a.active  {
+    margin: 0px 0px 0px 0px;
+    width: 156px;
+    display: block;
+    padding: 4px 8px 3px 25px;
+    color: #fff;
+    background: #939598 url(../images/background/subnavactive.png) repeat-y;
+    text-decoration: none;
+    font-size: 12px;
+ }
+
+ ul#subnav li a.sublinesubheader  {
+    margin: 0px 0px 0px 0px;
+    width: 170px;
+    display: block;
+    padding: 4px 8px 3px 11px;
+    color: #fff;
+    background: #939598 url(../images/background/subnavactive.png) repeat-y;
+    text-decoration: none;    
+    font-size: 13px;
+    border-bottom: 1px solid #404041;
+ }
+
+ ul#subnav li.mainheader a {    
+    margin: 0px 0px 5px 0px;
+    width: 170px;
+    padding: 4px 8px 3px 11px;
+    color: #fff;
+    background: #40c8f4;
+    text-decoration: none;
+    font-size: 15px;    
+ }
+
+ ul#subnav li.mainheader a:hover {    
+    margin: 0px 0px 5px 0px;
+    width: 170px;
+    padding: 4px 8px 3px 11px;
+    color: #fff;
+    background: #696a6c;
+    text-decoration: none;
+    font-size: 15px;    
+ }
+
 
 /* END UL.SUBNAV */

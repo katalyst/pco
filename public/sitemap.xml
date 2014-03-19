@@ -5,130 +5,271 @@
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
-<url>
-  <loc>http://www.ppcons.com.au/</loc>
-  <priority>1</priority>
-  <lastmod>2007-09-04T09:06:54+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.ppcons.com.au/index.html</loc>
-  <priority>1</priority>
-  <lastmod>2007-09-04T09:06:54+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.ppcons.com.au/aboutus.html</loc>
-  <priority>0.5</priority>
-  <lastmod>2007-09-04T09:06:54+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.ppcons.com.au/ourpeople.html</loc>
-  <priority>0.5</priority>
-  <lastmod>2007-09-04T09:06:54+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.ppcons.com.au/services.html</loc>
-  <priority>0.5</priority>
-  <lastmod>2007-09-04T09:06:54+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.ppcons.com.au/quality.html</loc>
-  <priority>0.5</priority>
-  <lastmod>2007-09-04T09:06:54+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.ppcons.com.au/careers.html</loc>
-  <priority>0.5</priority>
-  <lastmod>2007-09-04T09:06:54+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.ppcons.com.au/contact.html</loc>
-  <priority>0.5</priority>
-  <lastmod>2007-09-04T09:06:54+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.ppcons.com.au/referrals.html</loc>
-  <priority>1</priority>
-  <lastmod>2007-09-04T09:06:54+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.ppcons.com.au/links.html</loc>
-  <priority>0.5</priority>
-  <lastmod>2007-09-04T09:06:54+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.ppcons.com.au/sitemap.html</loc>
-  <priority>0.5</priority>
-  <lastmod>2007-09-04T09:06:54+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.ppcons.com.au/copyright.html</loc>
-  <priority>0.5</priority>
-  <lastmod>2007-09-04T09:06:54+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.ppcons.com.au/privacy.html</loc>
-  <priority>0.5</priority>
-  <lastmod>2007-09-04T09:06:54+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.ppcons.com.au/disclaimer.html</loc>
-  <priority>0.5</priority>
-  <lastmod>2007-09-04T09:06:54+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.ppcons.com.au/workerscomp.html</loc>
-  <priority>1</priority>
-  <lastmod>2007-09-04T09:06:54+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.ppcons.com.au/disabilityemploymentservice.html</loc>
-  <priority>0.5</priority>
-  <lastmod>2007-09-04T09:06:54+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.ppcons.com.au/jobcapacityassessment.html</loc>
-  <priority>0.5</priority>
-  <lastmod>2007-09-04T09:06:54+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.ppcons.com.au/returntowork.html</loc>
-  <priority>0.5</priority>
-  <lastmod>2007-09-04T09:06:54+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.ppcons.com.au/intensivejobseeking.html</loc>
-  <priority>0.5</priority>
-  <lastmod>2007-09-04T09:06:54+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.ppcons.com.au/restorationassessments.html</loc>
-  <priority>0.5</priority>
-  <lastmod>2007-09-04T09:06:54+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.ppcons.com.au/vocationalassessments.html</loc>
-  <priority>0.5</priority>
-  <lastmod>2007-09-04T09:06:54+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-</url>
+  <url>
+    <loc>http://www.ppcons.com.au/</loc>
+    <priority>1</priority>
+    <lastmod>2014-03-19T09:06:54+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>http://www.ppcons.com.au/</loc>
+    <priority>0.5</priority>
+    <lastmod>2014-03-19T09:06:54+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+
+
+  <url>
+    <loc>http://www.ppcons.com.au/#/about-us</loc>
+    <priority>0.5</priority>
+    <lastmod>2014-03-19T09:06:54+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>http://www.ppcons.com.au/#/how-can-we-help-you</loc>
+    <priority>0.5</priority>
+    <lastmod>2014-03-19T09:06:54+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>http://www.ppcons.com.au/#/our-customers</loc>
+    <priority>0.5</priority>
+    <lastmod>2014-03-19T09:06:54+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>http://www.ppcons.com.au/#/our-values</loc>
+    <priority>0.5</priority>
+    <lastmod>2014-03-19T09:06:54+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>http://www.ppcons.com.au/#/commitment-to-quality</loc>
+    <priority>0.5</priority>
+    <lastmod>2014-03-19T09:06:54+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>http://www.ppcons.com.au/#/our-people</loc>
+    <priority>0.5</priority>
+    <lastmod>2014-03-19T09:06:54+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>http://www.ppcons.com.au/#/management</loc>
+    <priority>0.5</priority>
+    <lastmod>2014-03-19T09:06:54+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>http://www.ppcons.com.au/#/our-team</loc>
+    <priority>0.5</priority>
+    <lastmod>2014-03-19T09:06:54+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>http://www.ppcons.com.au/#/workplace-rehabilitation</loc>
+    <priority>0.5</priority>
+    <lastmod>2014-03-19T09:06:54+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>http://www.ppcons.com.au/#/pre-injury-employer-services</loc>
+    <priority>0.5</priority>
+    <lastmod>2014-03-19T09:06:54+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>http://www.ppcons.com.au/#/new-employer-services</loc>
+    <priority>0.5</priority>
+    <lastmod>2014-03-19T09:06:54+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>http://www.ppcons.com.au/#/employment-transition</loc>
+    <priority>0.5</priority>
+    <lastmod>2014-03-19T09:06:54+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>http://www.ppcons.com.au/#/intensive-job-seeking-program</loc>
+    <priority>0.5</priority>
+    <lastmod>2014-03-19T09:06:54+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>http://www.ppcons.com.au/#/job-placement</loc>
+    <priority>0.5</priority>
+    <lastmod>2014-03-19T09:06:54+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>http://www.ppcons.com.au/#/ppc-works</loc>
+    <priority>0.5</priority>
+    <lastmod>2014-03-19T09:06:54+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>http://www.ppcons.com.au/#/suitable-employment-assessments</loc>
+    <priority>0.5</priority>
+    <lastmod>2014-03-19T09:06:54+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>http://www.ppcons.com.au/#/restoration-to-the-community</loc>
+    <priority>0.5</priority>
+    <lastmod>2014-03-19T09:06:54+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>http://www.ppcons.com.au/#/disability-employment-services</loc>
+    <priority>0.5</priority>
+    <lastmod>2014-03-19T09:06:54+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>http://www.ppcons.com.au/#/des-how-can-we-help-you</loc>
+    <priority>0.5</priority>
+    <lastmod>2014-03-19T09:06:54+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>http://www.ppcons.com.au/#/job-seekers-employees</loc>
+    <priority>0.5</priority>
+    <lastmod>2014-03-19T09:06:54+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>http://www.ppcons.com.au/#/employers</loc>
+    <priority>0.5</priority>
+    <lastmod>2014-03-19T09:06:54+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>http://www.ppcons.com.au/#/what-we-offer</loc>
+    <priority>0.5</priority>
+    <lastmod>2014-03-19T09:06:54+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>http://www.ppcons.com.au/#/how-do-i-get-involved</loc>
+    <priority>0.5</priority>
+    <lastmod>2014-03-19T09:06:54+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>http://www.ppcons.com.au/#/wage-subsidies</loc>
+    <priority>0.5</priority>
+    <lastmod>2014-03-19T09:06:54+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>http://www.ppcons.com.au/#/job-in-jeopardy</loc>
+    <priority>0.5</priority>
+    <lastmod>2014-03-19T09:06:54+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>http://www.ppcons.com.au/#/des-ppc-works"</loc>
+    <priority>0.5</priority>
+    <lastmod>2014-03-19T09:06:54+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>http://www.ppcons.com.au/#/national-panel-of-assessors</loc>
+    <priority>0.5</priority>
+    <lastmod>2014-03-19T09:06:54+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>http://www.ppcons.com.au/#/supported-wage-system</loc>
+    <priority>0.5</priority>
+    <lastmod>2014-03-19T09:06:54+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>http://www.ppcons.com.au/#/ongoing-support-assessments</loc>
+    <priority>0.5</priority>
+    <lastmod>2014-03-19T09:06:54+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>http://www.ppcons.com.au/#/occupational-therapy</loc>
+    <priority>0.5</priority>
+    <lastmod>2014-03-19T09:06:54+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>http://www.ppcons.com.au/#/contact</loc>
+    <priority>0.5</priority>
+    <lastmod>2014-03-19T09:06:54+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>http://www.ppcons.com.au/#/sitemap</loc>
+    <priority>0.5</priority>
+    <lastmod>2014-03-19T09:06:54+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>http://www.ppcons.com.au/#/copyright</loc>
+    <priority>0.5</priority>
+    <lastmod>2014-03-19T09:06:54+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>http://www.ppcons.com.au/#/privacy</loc>
+    <priority>0.5</priority>
+    <lastmod>2014-03-19T09:06:54+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>http://www.ppcons.com.au/#/disclaimer</loc>
+    <priority>0.5</priority>
+    <lastmod>2014-03-19T09:06:54+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>http://www.ppcons.com.au/#/links</loc>
+    <priority>0.5</priority>
+    <lastmod>2014-03-19T09:06:54+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+
 </urlset>
