@@ -61,14 +61,54 @@
 		padding: 0;
 		line-height:16px;
 	}
-	blockquote {
-		text-align: center;
-		margin: 0 22px 5px 22px;
+
+	.quote {
+		background: #e9eaea;
+		padding: 22px;
+
+		p,blockquote {
+			margin-left: 0;
+			margin-right: 0;
+		}
+
+		blockquote {
+			font-style: italic;
+			line-height: 24px;
+			margin-bottom: 0;
+			margin-top: 0;
+		}
+
+		blockquote:before,
+		blockquote:after {
+			content: "";
+			display: inline-block;
+			width: 19px;
+			height: 16px;
+			position: relative;
+		}
+
+		blockquote:before {
+			margin-right: 6px;
+			background: url("/images/components/quote-start.gif");
+			top: 1px;
+		}
+
+		blockquote:after {
+			margin-left: 6px;
+			background: url("/images/components/quote-end.gif");
+			top: 5px;
+		}
 	}
+
+	// blockquote {
+	// 	text-align: center;
+	// 	margin: 0 22px 5px 22px;
+	// }
 	
-	blockquote:last-child {
-		margin-bottom: 22px;
-	}
+	// blockquote:last-child {
+	// 	margin-bottom: 22px;
+	// }
+
 
 	pre {
 		font-family: monospace;
