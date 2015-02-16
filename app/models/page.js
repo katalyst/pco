@@ -94,7 +94,7 @@ Page.FIXTURES = [
       id: "new-employer-services",
       title: "New Employer Services",
       parent: "workplace-rehabilitation",
-      children: ["employment-transition", "intensive-job-seeking-program", "job-placement"]
+      children: ["employment-transition", "fit-for-work", "intensive-job-seeking-program"]
     },
       {
         id: "employment-transition",
@@ -102,18 +102,18 @@ Page.FIXTURES = [
         parent: "new-employer-services"
       },
       {
-        id: "intensive-job-seeking-program",
-        title: "Intensive Job Seeking Program",
+        id: "fit-for-work",
+        title: "Fit for Work",
         parent: "new-employer-services"
       },
       {
-        id: "job-placement",
-        title: "Job Placement",
+        id: "intensive-job-seeking-program",
+        title: "Intensive Job Seeking",
         parent: "new-employer-services"
       },
     {
       id: "ppc-works",
-      title: "Job Search Training & Facilities",
+      title: "Career Planning and Support Services Programme",
       parent: "workplace-rehabilitation"
     },
     {
@@ -169,7 +169,7 @@ Page.FIXTURES = [
     },
     {
       id: "des-ppc-works",
-      title: "Job Search Training & Facilities",
+      title: "Career Planning and Support Services Programme",
       parent: "disability-employment-services"
     },
   {
